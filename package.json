@@ -1,0 +1,19 @@
+{
+  "name": "dhmovies",
+  "version": "1.0.0",
+  "description": "DH Movies Sitio Web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "dhmovies"
+  ],
+  "author": "Cristian Peralta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
