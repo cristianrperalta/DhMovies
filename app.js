@@ -1,6 +1,6 @@
-let server = require('./servidor'); //Importamos el módulo server creado
+let server = require('./customFunctions'); //Importamos el módulo customFunctions creado
 let router = require('./router'); //Importamos el módulo router
-let drivers = require('./driver'); //Importamos el módulo driver
+let drivers = require('./src/index'); //Importamos el módulo index
 let driver = {}
 driver["/"] = drivers.homePage;
 driver["/en-cartelera"] = drivers.enCartelera;
